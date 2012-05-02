@@ -1,0 +1,2 @@
+bin_PROGRAMS = collectdfs
+collectdfs_SOURCES = main.cc entry.cc stat_tree.cc wrapper.cc fs.cc client.cc

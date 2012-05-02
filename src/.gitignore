@@ -1,0 +1,8 @@
+.#*
+Makefile
+Makefile.in
+collectdfs
+*.o
+.deps
+*~
+/test_mnt

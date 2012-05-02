@@ -1,0 +1,9 @@
+
+Application that exposes all of the collectd statistics as a filesystem (via FUSE).
+
+Compilation is done through normal autoconf method (autogen.sh, configure, make).
+
+Full usage is available using 'collectdfs --help', but typical usage is something like:
+
+collectdfs -o collectd-address=/var/run/collectd-unixsock ./collectd_mnt
+
